@@ -1,15 +1,57 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# IDE
+.vscode
+.idea/
 
-# Test binary, built with `go test -c`
-*.test
+# Go prof output
+*.prof
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Test files
+*.rlp
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# Go test output
+*/*.test
+*/*.out
+
+# Build output
+build
+dist
+
+# Dependencies
+vendor
+glide.lock
+
+# patches and diff files
+*.patch
+*.diff
+
+# gomobile compilation output
+*.aar
+*.jar
+
+# archives
+*.tar.gz
+*.tgz
+*.zip
+
+# lachesis project specific
+scripts/certs
+scripts/nodes
+scripts/peers.json
+scripts/docker/upx
+nodes
+peers.json
+certs
+lachesis_*
+!*.go
+*.log
+*.graph
+*.gv
+*.finality
+
+# Backup copies
+*~
+*.bak
+
+.#*
+
+**/coverage.txt

@@ -1,2 +1,20 @@
-# spesbas-base
-Lachesis aBFT consensus algorithm library
+# SPESBaS base 
+
+A base library defines interfaces and modules of aBFT Lachesis consensus protocol.
+Part of SPESBaS' s Consensus-as-a-Service for distributed applications.
+
+## Build Details
+
+## Building the source
+
+### Running Lachesis
+
+### Docker
+
+## Dev
+
+### Running testnet
+
+### Testing
+
+### Running the demo
